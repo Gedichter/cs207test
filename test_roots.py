@@ -14,3 +14,5 @@ def test_quadroots_zerocoeff():
         roots.quad_roots(a=0.0)
     except ValueError as err:
         assert(type(err) == ValueError)
+
+print(2.7**(-100)*10e8)
